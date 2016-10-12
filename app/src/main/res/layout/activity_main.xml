@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/infor_id"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="id"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/infor_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="name"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/infor_sex"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="sex"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/infor_age"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="age"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/infor_commit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="GO"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
